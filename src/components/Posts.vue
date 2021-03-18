@@ -1,6 +1,6 @@
 <template  >
 
-<div  id = "Posts" class = "bg">
+<div  id = "Posts" class = "black_and_white">
 <br>
    
  <div  class = "general-heading__header"  >
@@ -18,34 +18,103 @@
 
  <b-row >
 
-<b-container v-for ="post in postses" :key="post.id" fluid = "sm">
+<b-container   fluid = "md">
    
-  <b-col  cols = "12" class = "bg">
+  <b-col  cols = "12" >
     
-   <a href ='"/"'>
-  <b-card  class= "text-center img-hover-zoom bg"
+   <a href ='/About'>
+  <b-card  class= " img-hover-zoom bg"
          bg-variant="dark"
     overlay
-    :img-src=post.images.url
+    img-src="../assets/kontrast_logo_black.png"
+
     img-alt="Card Image"
     img-height="300px;"
     text-variant="white"
-    :title=post.title
-    :sub-title=post.content.text
+    title= "Λίγα λόγια για τη συνέλευση" 
+    
+    sub-title-text-variant="white"
+    style = "max-width:  ;"
+
+  >
+    <b-card-text >
+  
+    </b-card-text>
+    
+  
+  </b-card>
+</a>
+
+<br>
+
+
+   <a href ='/'>
+  <b-card  class= "text-center img-hover-zoom bg"
+         bg-variant="dark"
+    overlay
+    img-src="../assets/black_white.jpg"
+
+    img-alt="Card Image"
+    img-height="300px;"
+    text-variant="dark"
+    title=post.title
+    sub-title="kati na leei edw"
     style = "max-width:  ;"
 
   >
     <b-card-text >
       
     </b-card-text>
-    <b-button v-bind:href ='"/" ' id primary>Διαβασε περισσότερα</b-button>
+    <b-button id primary>Διαβασε περισσότερα</b-button>
+  
+  </b-card>
+</a>
+  <br>
+     <a href ='/'>
+  <b-card  class= "text-center img-hover-zoom bg"
+         bg-variant="dark"
+    overlay
+    img-src="./images/kalh_fash.png"
+
+    img-alt="Card Image"
+    img-height="300px;"
+    text-variant="white"
+    title=post.title
+    sub-title="kati na leei edw"
+    style = "max-width:  ;"
+
+  >
+    <b-card-text >
+      
+    </b-card-text>
+    <b-button id primary>Διαβασε περισσότερα</b-button>
   
   </b-card>
 </a>
 <br>
+   <a href ='/Oxi'>
+  <b-card  class= "text-center img-hover-zoom bg "
+         bg-variant="white"
+    overlay
+    img-src="../assets/Bob_sfouggar.jpg"
 
-  <br>
+    img-alt="Card Image"
+    img-height="300px;"
+    text-variant="white"
+    title= "5+1 σημεία γιατί η Μακεδονία δεν είναι μια και δεν είναι ελληνική
+(και γιατί δεν παραχαράσσεται η ιστορία)"
+   
+    style = "max-width:  ;"
+
+  >
+    <b-card-text >
+      
+    </b-card-text>
+    <b-button id primary>Διαβασε περισσότερα</b-button>
   
+  </b-card>
+</a>
+  <br>
     </b-col>
 </b-container>
 
@@ -55,54 +124,15 @@
 </template>
 
 <script>
-import gql from 'graphql-tag';
-//GraphQL Query for POSTS
 
-const postsQuery = gql`
-{
-  postses { 
-    
-    status
-    createdAt
-    id
-    date
-    title
-    content {
-
-      text
-    }
-    images {
-      id
-      url
-    }
-
-    
-  }
-  
-}
-  
-`;
 
 
 export default {
-  data: () => ({ 
-    assets:[],
-    post: [],
-    loading : 0,
 
-
-  }),
-  apollo: {
-    postses: {
-      query: postsQuery,
-      loadingKey :'loading',
-    },
-  },
+ 
 
   
-  methods: {
 
-  },
 
     
     
@@ -118,6 +148,12 @@ export default {
 .bg {
   background-color :black
 }
+.posts {
+  padding-left :200px;
+  padding-right:200px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
 .img-hover-zoom {
   /* [1.1] Set it as per your need */
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
@@ -125,7 +161,7 @@ export default {
 
 /* [2] Transition property for smooth transformation of images */
 .img-hover-zoom img {
-    transition: transform 1s, filter 2s ease-in-out;
+    transition: transform 0.3s, filter 0.3s ;
   
   transform: scale(1.1);
 }
@@ -142,7 +178,7 @@ export default {
     text-transform: uppercase;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    color:rgb(255, 255, 255);
+    color: black;
     padding-top : 6.8%;
     padding-bottom: 5%;
     font-weight: 1000px;
@@ -168,7 +204,7 @@ export default {
 
 }
 .general-heading__line {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(161, 106, 167);;
     height: 5px;
     line-height: 10px;
     margin: 1px auto 0;
@@ -197,4 +233,9 @@ export default {
     font-size: 38px;
     line-height: 1.211;
 }
+
+.background_image {
+  background: url(../assets/test_1_purple.jpg);
+}
+
 </style>
