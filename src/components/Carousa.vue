@@ -1,6 +1,6 @@
 <template  >
 
-<div  class = "black_and_white ">
+<div   class = "black_and_white ">
   
 
 <br>
@@ -195,7 +195,7 @@
    
     img-top
     
-    title = " Τι ωραία καταιγίδα που έρχεται..."
+    title = " Τι ωραία καταιγίδα που έρχεται..." 
     
    align = ''
    
@@ -307,7 +307,7 @@
 </b-col>
 
 
-/<br>
+<br>
 
     
     <b-col sm= "8" >
@@ -357,6 +357,7 @@ color:black;
 .black_and_white{
 
   background-color :white;
+  max-width : 100%;
   
 }
 

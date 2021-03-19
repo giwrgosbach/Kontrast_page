@@ -1,6 +1,6 @@
 <template  >
 
-<div  id = "Posts" class = "background_image">
+<div  id = "Posts" class = "bg">
 <br>
    
  <div  class = "general-heading__header"  >
