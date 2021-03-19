@@ -1,6 +1,7 @@
 <template  >
 
 <div class = "black_and_white">
+<p class = "general-heading__line_stories_title  " ></p>
 <br>
    
  <div  class = "general-heading__header"  >
