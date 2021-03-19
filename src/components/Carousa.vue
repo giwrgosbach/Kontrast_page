@@ -207,7 +207,7 @@
       
     </b-card-text>
   
-  <b-button   href ="/Κείμενα" size="sm"  class=""  variant="outline-light"  >Περισσότερα</b-button>
+  <b-button   href ="/Storm" size="sm"  class=""  variant="outline-light"  >Περισσότερα</b-button>
 
 
     
