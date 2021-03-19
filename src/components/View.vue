@@ -1,9 +1,9 @@
 <template>
 <div class = " black_and_white ">
-<div  id = "Posters" >
+<div  >
 <br>
    
- <div  class = "general-heading__header_posters"  >
+ <div  class = "general-heading__header_posters heading_title"  >
     <H1 > ΑΦΙΣΕΣ</h1>
    
 <p class = "general-heading__line_posters"></p>
@@ -13,32 +13,39 @@
   </div>
   </div>
    
-     <div  class = "general-heading " style= "height:px" >
+     <div  class = "black_and_white"  >
   
   </div>
   <br>
   <br>  
-      <b-container  class = "container_posters bg_none " fluid = "md" 
+      <b-container fluid = "md"    class = "container_posters   " 
       >
 
      
     <!-- directive -->
+
+    <div class="images black_and_white" v-viewer >
   
-    <div class="images" v-viewer fluid = "sm">
-        <b-row fluid = "sm" style ="height:860px;" cols = "2"  >
-        
+        <b-row fluid = "sm"  >
+        <b-col cols="12" md="8" >
        
-      <b-img src="../assets/Kamia_anoxh.jpg" style = "height:80%;" fluid/>
-      
+      <b-img-lazy fluid-grow  src="../assets/Kamia_anoxh.jpg" style = "height:80%;" />
+      <br>
+            <p class = "general-heading__line_posters_second"></p>
+      </b-col >
+      <b-col 
+ >  <b-img-lazy fluid-grow  src="../assets/Solidarity.jpg" style = "height:80%; flex" />
+
+      </b-col>
+       
+           
+
         
-        <b-col  fluid>
-            <b-img src="../assets/Solidarity.jpg"  style = "height:60%;" fluid/>
-        </b-col>
         </b-row>
-        <b-row>
-        <b-col fluid>
-        <b-img src="../assets/No_name.jpg" style = "height: 100%;" fluid />
-        </b-col>
+
+        <b-row class= "containe_posters">
+  <b-img  lazy src="../assets/No_name.jpg" style = "height:80%; flex" />
+        
        
         </b-row>
      
@@ -67,11 +74,14 @@
 <style >
 .container_posters {
     padding-left:40px;
-    flex: 0 0 auto;
+    flex: auto;
     padding-right:40px;
-
-   background-color:rgb(0, 0, 0);
+    background-color : none;
+   background-color:white;
   
+}
+.black_and_white {
+  background_color: white;
 }
 .background_image {
   background: url(../assets/test_1_purple.jpg);
@@ -95,7 +105,13 @@
     margin: 50;
     text-align: center;
 }
-
+.general-heading__line_poster_second {
+    background-color:rgb(161, 106, 167);
+    height: 5px;
+    line-height: 10px;
+    margin: 1px auto 0;
+    width: 100px;
+}
 .general-heading__dek {
     font-family: Segoe UI, ;
     -moz-osx-font-smoothing: grayscale;
@@ -118,4 +134,27 @@
     width: 100px;
     
 }
+.general-heading__line_posters_second {
+    background-color:rgb(161, 106, 167);
+    height: 4px;
+    line-height: 4px;
+    margin-top:10%;
+    margin-bottom:20px;
+    width: 254px;
+    align:left;
+    
+}
+      @media screen and (min-width: 720px)  {
+        .mobile-break { display: none; }
+        
+        
+        
+    }
+    @media screen and (max-width: 720px) {
+        .button_center {
+          text-align: center; 
+        }
+        .heading_title {
+          padding-top: 14%;
+        }}
 </style>

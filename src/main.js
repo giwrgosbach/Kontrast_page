@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import HelloWorld from './components/HelloWorld.vue'
 import Carousa from './components/Carousa.vue'
-
+import Storm from './components/Storm.vue'
 import SinglePost from './components/SinglePost.vue'
 import Network from './components/Network'
 import zircle from 'zircle'
@@ -59,7 +59,8 @@ const routes = [
   {path: '/Network', component :Network},
   {path:'/View', component: View},
   {path: '/Fascism', component: Fascism},
-  {path: '/No_name', component :No_name}
+  {path: '/No_name', component :No_name},
+  {path: '/Storm',component : Storm}
   
 ]
 

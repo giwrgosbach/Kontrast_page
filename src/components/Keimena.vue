@@ -45,56 +45,37 @@
   
   </b-card>
 </a>
-
+ 
 <br>
-
-
-   <a href ='/'>
-  <b-card  class= "text-center img-hover-zoom bg"
+     
+   <a href ='/No_name '>
+  <b-card  class= " img-hover-zoom bg"
          bg-variant="dark"
     overlay
-    img-src="../assets/black_white.jpg"
-
-    img-alt="Card Image"
-    img-height="300px;"
-    text-variant="dark"
-    title=post.title
-    sub-title="kati na leei edw"
-    style = "max-width:  ;"
-
-  >
-    <b-card-text >
-      
-    </b-card-text>
-    <b-button id primary>Διαβασε περισσότερα</b-button>
-  
-  </b-card>
-</a>
-  <br>
-     <a href ='/'>
-  <b-card  class= "text-center img-hover-zoom bg"
-         bg-variant="dark"
-    overlay
-    img-src="./images/kalh_fash.png"
-
+    img-src="../assets/no_borders.jpg"
+    
     img-alt="Card Image"
     img-height="300px;"
     text-variant="white"
-    title=post.title
-    sub-title="kati na leei edw"
+    title= "Γι αυτούς που δεν έχουν όνομα" 
+    
+    sub-title-text-variant="white"
     style = "max-width:  ;"
 
   >
     <b-card-text >
-      
+  
     </b-card-text>
-    <b-button id primary>Διαβασε περισσότερα</b-button>
+    
   
   </b-card>
 </a>
 <br>
+
+
+
    <a href ='/Oxi'>
-  <b-card  class= "text-center img-hover-zoom bg "
+  <b-card  class= "text-center img-hover-zoom bg test_title "
          bg-variant="white"
     overlay
     img-src="../assets/Bob_sfouggar.jpg"
@@ -111,7 +92,7 @@
     <b-card-text >
       
     </b-card-text>
-    <b-button id primary>Διαβασε περισσότερα</b-button>
+    
   
   </b-card>
 </a>
@@ -148,6 +129,10 @@ export default {
 <style scoped>
 .bg {
   background-color :black
+}
+.card-title{
+    font-size:16px;
+    margin-top:2%;
 }
 .posts {
   padding-left :200px;
@@ -209,7 +194,7 @@ export default {
     height: 5px;
     line-height: 10px;
     margin: 1px auto 0;
-    width: 100px;
+    width: 160px;
     
 }
  

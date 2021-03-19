@@ -1,6 +1,6 @@
 <template  >
 
-<div   class = "black_and_white ">
+<div   class = " black_and_white ">
   
 
 <br>
@@ -173,7 +173,7 @@
 <br>
 <div class = "button_center" >
 
-<b-button   href ="/posts" size="sm" class =" bg "  variant="outline-dark"  >Περισσότερα</b-button>
+<b-button   href ="/posts" size="sm"   variant="outline-dark"  >Περισσότερα</b-button>
 </div>
 <br> 
 
@@ -191,7 +191,7 @@
     img-alt="Card Image"
     img-width ="100%;"
     img-height="400px;"
-    border-variant="dark"
+    border-variant="white"
    
     img-top
     
@@ -662,7 +662,8 @@ color:black;
 .container {
     padding-left:40px;
     flex: 0 0 auto;
-    padding-right:40px;
+    padding-right:40px; 
+    max-width: flex;
 
    background-color:none;
   

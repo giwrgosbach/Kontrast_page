@@ -134,8 +134,8 @@
 
 .footer {
   background-color:black;
-  font-weight :50px;
+  font-weight :20px;
   font-size : 22px;
-  font-family : "" 
+  font-family : ""Segoe UI","Roboto","Arial","Helvetica Neue","Helvetica",sans-serif" 
 }
 </style>

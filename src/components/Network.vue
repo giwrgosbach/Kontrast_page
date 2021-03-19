@@ -1,6 +1,6 @@
 <template  >
 
-<div  id = "Posts" class = "bg">
+<div  id = "Posts" class = "black_and_white">
 <br>
    
  <div  class = "general-heading__header"  >
@@ -12,7 +12,7 @@
  
   </div>
    
-     <div  class = "general-heading bg" style= "height200px" >
+     <div  class = "general-heading bg"  >
   
   </div>
 
@@ -22,7 +22,7 @@
   <b-row cols = "1" cols-sm = "2">
   <b-col   order = "1" >
     
-   <a href ='/'>
+   <a href ='/Storm'>
   <b-card  class= "text-center img-hover-zoom bg"
          bg-variant="dark"
     overlay
@@ -188,8 +188,8 @@ export default {
     text-transform: uppercase;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    color:rgb(255, 255, 255);
-    padding-top : 6.8%;
+    color:black;
+    padding-top : 14%;
     padding-bottom: 5%;
     font-weight: 1000px;
     font-size: 600px;
@@ -214,11 +214,11 @@ export default {
 
 }
 .general-heading__line {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(161, 106, 167);
     height: 5px;
     line-height: 10px;
     margin: 1px auto 0;
-    width: 100px;
+    width: 160px;
     
 }
  
