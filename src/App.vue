@@ -1,13 +1,17 @@
 <template>
-<div class = "bg">
+<div>
 
 <navbar></navbar>
 
 
 
-
 <router-view></router-view>
+
+<foot></foot>
+
+
 </div>
+
 </template>
 
 <script>
@@ -18,7 +22,9 @@
  
 
 
-import navbar from "./components/navbar.vue"
+import navbar from "./components/navbar"
+import foot from "./components/footerVue"
+
 
 
 
@@ -26,13 +32,24 @@ export default {
   name: 'app',
   components: {
     
-    
+  
     navbar,
+    foot
+   
+
+    
+    
+
+    
+    
+    
+ 
+    
     
   
 
-}
-}
+  }}
+
 </script>
 
 <style>

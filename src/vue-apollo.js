@@ -21,7 +21,7 @@ const defaultOptions = {
   httpEndpoint,
   // You can use `wss` for secure connection (recommended in production)
   // Use `null` to disable subscriptions
-  wsEndpoint: process.env.VUE_APP_GRAPHQL_WS || 'ws://api-euwest.graphcms.com/v1/ck8rfs7ho0km201bhhf96aw3u/master',
+  wsEndpoint: process.env.VUE_APP_GRAPHQL_WS || 'https://api-euwest.graphcms.com/v1/ck8rfs7ho0km201bhhf96aw3u/master',
   // LocalStorage token
   tokenName: AUTH_TOKEN,
   // Enable Automatic Query persisting with Apollo Engine

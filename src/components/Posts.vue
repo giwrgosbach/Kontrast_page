@@ -1,6 +1,6 @@
 <template  >
 
-<div  id = "Posts" class = "black_and_white">
+<div id = "Posts" class = "black_and_white">
 <br>
    
  <div  class = "general-heading__header"  >
@@ -8,7 +8,7 @@
    
 <p class = "general-heading__line"></p>
 
-
+<h1> SADSADASDASFASDAFA </h1>
  
   </div>
    

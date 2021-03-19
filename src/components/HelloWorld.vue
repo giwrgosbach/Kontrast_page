@@ -6,8 +6,8 @@
     img-src="@/assets/timeobsessed.jpg"
     img-alt="Card Image"
     text-variant="dark"
-    v-bind:title=blog.title
-    :sub-title=blog.content
+    title=blog.title
+    sub-title=blog.content
     style = "max-width:  ;"
 
   >

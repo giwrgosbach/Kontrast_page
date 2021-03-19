@@ -4,7 +4,7 @@
 
     <b-col cols ="12">
  
-  <b-card  class =  "bg" 
+  <b-card  class =  "bg mobile_text css-exrw3m" 
    
 
    

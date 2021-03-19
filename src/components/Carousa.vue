@@ -1,38 +1,149 @@
 <template  >
 
-<div  class = "bg">
+<div  class = "black_and_white ">
+  
+
 <br>
+<br>
+<br>
+    <b-row  >
 
 
-  
-   
-  <div  class = "general-heading__header bg_heder"  >
-    <H1 > TIME BANDITS </h1>
-    
-   
-<p class = "general-heading__line"></p>
+      <b-col md="12" class="d-flex">
 
-   <p class  = "general-heading__dek">Through the eyes of our Explorers, photographers, journalists, and filmmakers</p>
+      <p class = "general-heading__line_stories_title  " ></p>
+      </b-col>
+    </b-row>
  
-  </div>
+
+
    
-     <div   class = "general-heading bg" style= "height200px" >
-  
-  </div>
-<b-container     >
-
-
-  <b-row  class = "" >
     
-    <b-col   class =" col-4-xs   " >
-      <p class = "general-heading__line_stories"></p>
-      <p class = "promos_stories "> Recent Posts</p>
+       <div class = "New_heading ">
+
+        <b-row class = "test_header "> 
+
+               
+
+  <b-card class  ="test_header "
+  
+ 
+  bg-variant="None"
+  border-variant="light"
+ 
+  title ="Θέλουμε κοινότητες ελεύθερης έκφρασης και αυτοδιάθεσης των υποκειμένων να ξεπηδούν σε κάθε κοινωνικό χώρο, θέτοντας ένα πλαίσιο συλλογικοποίησης και αμοιβαίας συνύπαρξης που να μας υπενθυμίζει πως κανένα άτομο δεν είναι μόνο του απέναντι στην εκμετάλλευση και την καταπίεση που βιώνει." 
+  >
+  
+<div class = "text-center">
+<b-button   variant="outline-dark"  class="text-center" size = "sm"  href="/About"  >Διάβασε περισσότερα</b-button>
+</div>
+   </b-card>
+ 
+
+
+
+
+</b-row>
+
+
+  </div>
+<br>
+<b-container class ="container"  >
+
+  <b-row >
+
+    <b-col   >
+      <p class = "general-heading__line_stories  " ></p>
+      <p class = "promos_stories   "> Κείμενα</p>
       
-<a v-for ="post in postses" :key="post.id"  class  = "a_hover" href ='"/" + post.title'>
-      <b-card   class= " card_body img-hover-zoom "
+  <a   class  = "a_hover" href ="/Fascism">
+      <b-card   class= " card_body  "
+         border-variant = "light"
+ 
+    img-src= "../assets/anti_nazis.jpg"    
+
+
+    img-alt="Card Image"
+    img-left
+    img-height="100px;"
+    text-variant= "dark"
+   
+    title.position ="5px"
+  
+   text-color = "black" 
+   sub-title-text-variant="black"
+   img-width="100px"
+  no-body=""
+
+  >
+<div  class = "card_body_content">
+  <h4 >Ο φασισμός πέθανε, ζήτω ο φασισμός</h4>
+
+   </div> 
+    
+  </b-card>
+  </a>
+
+  <a   class  = "a_hover" href ="/No_name">
+      <b-card   class= " card_body  "
+         bg-variant=""
+        border-variant="light"
+    img-src= "../assets/no_borders.jpg"    
+
+
+    img-alt="Card Image"
+    img-left
+    img-height="100px;"
+    text-variant="dark"
+    title.position ="5px"
+  
+   text-white ="color:white"
+   sub-title-text-variant="black"
+   img-width="100px"
+  no-body=""
+
+  >
+<div  class = "card_body_content">
+  <h4 >Γι αυτούς που δεν έχουν όνομα…</h4>
+  
+   </div> 
+    
+  </b-card>
+  </a>
+  <a   class  = "a_hover" href ="/Oxi">
+      <b-card   class= " card_body  "
+         bg-variant=""
+    border-variant="light"
+    img-src= "../assets/Bob_sfouggar.jpg"    
+
+
+    img-alt="Card Image"
+    img-left
+    img-height="100px;"
+    text-variant="dark"
+    title.position ="5px"
+  
+   
+   sub-title-text-variant="black"
+   img-width="100px"
+  no-body=""
+
+  >
+<div  class = "card_body_content">
+  <h4 >5+1 σημεία γιατί η Μακεδονία δεν είναι μια και δεν είναι ελληνική</h4>
+  
+   </div> 
+    
+  </b-card>
+  </a>
+<!--
+  <a   class  = "a_hover" href ="">
+      <b-card   class= " card_body "
          bg-variant=""
  
-    :img-src=post.images.url
+    img-src= "../assets/no_borders.jpg"
+
+
     img-alt="Card Image"
     img-left
     img-height="100px;"
@@ -47,13 +158,13 @@
 
   >
 <div  class = "card_body_content">
-  <h4 >{{post.title}}</h4>
+  <h4 >titlos</h4>
   <h6> ena mikro keimeno na mhn paramorfwnei </h6>
    </div> 
     
   </b-card>
   </a>
-
+-->
 
 
   
@@ -62,7 +173,7 @@
 <br>
 <div class = "button_center" >
 
-<b-button   href ="/Κείμενα" size="sm" class =" primary "  variant="outline-light"  >Διάβασε Περισσότερα</b-button>
+<b-button   href ="/posts" size="sm" class =" bg "  variant="outline-dark"  >Περισσότερα</b-button>
 </div>
 <br> 
 
@@ -72,59 +183,118 @@
 
 <br class ="mobile-break">
 <br class ="mobile-break">
-<a class = "a_link_hover" href ='"/" + post.title'>
-    <b-card v-for ="post in postses.slice(0,1)" :key="post.id" class= "card_text img-hover-zoom"
-         bg-variant=""
- 
-    img-src="https://images.unsplash.com/photo-1554966681-fe80183de048?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
-    
-    img-alt="Card Image"
+<a class = "a_link_hover" href ="/View">
+    <b-card  class= " font_header text-center"  style = "color:white"
     overlay
+    img-src= "../assets/Acts/IMG_20201124_005755.jpg"    
+   
+    img-alt="Card Image"
+    img-width ="100%;"
     img-height="400px;"
-    text-variant="white"
-    v-bind:title=post.title
-    sub-title= "ena mikro keimeno na mhn paramorfwnei"
-   text-white ="color:white"
-   sub-title-text-variant="black"
-   align="top"
+    border-variant="dark"
+   
+    img-top
+    
+    title = " Τι ωραία καταιγίδα που έρχεται..."
+    
+   align = ''
    
    
   
 
   >
-    <b-card-text >
+    <b-card-text  > 
       
     </b-card-text>
-  <b-button v-bind:href ='"/" + post.title' size="md" variant="outline-dark"  >Διαβασε περισσότερα</b-button>
+  
+  <b-button   href ="/Κείμενα" size="sm"  class=""  variant="outline-light"  >Περισσότερα</b-button>
 
 
     
   </b-card>
 </a>
   <br>
-  <b-card-group >
+<!--
+  <b-card-group  >
 
-    <b-card v-for ="post in postses.slice(0,2)" :key="post.id" class= " card_text img-hover-zoom"
-         bg-variant="white"
 
-    :img-src=post.images.url
+
+    <b-card  class= " promo_stories img-hover-zoom"
+
+         bg-variant="none"
+
+    img-src= "../assets/Solidarity.jpg"
     img-alt="Card Image"
-    img-top
+    overlay
     img-height="200px;"
-    text-variant="dark"
-    v-bind:title=post.title
+    text-variant="white"
+    title="titlos"
+    no-body
     sub-title= "e3isou ena mikro keimeno "
     border-variant="dark"
     
-    sub-title-text-variant="dark"
+    sub-title-text-variant="white"
   
   >
  
      
     <b-card-text >
-   
+      
     </b-card-text>
-    <b-button v-bind:href ='"/" + post.title' size="md" variant="outline-dark"  >Διαβασε περισσότερα</b-button>
+    <b-button size="md" variant="secondary"  >Διαβασε περισσότερα</b-button>
+
+  </b-card>
+
+<br>  
+
+    <b-card  class= " promo_stories img-hover-zoom"
+
+         bg-variant="none"
+
+    img-src= "../assets/Solidarity.jpg"
+    img-alt="Card Image"
+    overlay
+    img-height="200px;"
+    text-variant="white"
+    title="titlos"
+    no-body
+    sub-title= "e3isou ena mikro keimeno "
+    border-variant="dark"
+    
+    sub-title-text-variant="white"
+  
+  >
+ 
+     
+    <b-card-text >
+      
+    </b-card-text>
+    <b-button size="md" variant="secondary"  >Διαβασε περισσότερα</b-button>
+
+  </b-card>
+   <b-card  class= " promo_stories img-hover-zoom"
+
+         bg-variant="none"
+
+    img-src= "../assets/Solidarity.jpg"
+    img-alt="Card Image"
+    overlay
+    img-height="200px;"
+    text-variant="white"
+    title="titlos"
+    no-body
+    sub-title= "e3isou ena mikro keimeno "
+    border-variant="dark"
+    
+    sub-title-text-variant="white"
+  
+  >
+ 
+     
+    <b-card-text >
+      
+    </b-card-text>
+    <b-button size="md" variant="secondary"  >Διαβασε περισσότερα</b-button>
 
   </b-card>
 
@@ -132,31 +302,12 @@
 
   
   </b-card-group>
-
+-->
 
 </b-col>
 
 
-<br>
-
-
-
-
-
-
-
-    
-   
-
-
-
-
-
-
-
-
-
-
+/<br>
 
     
     <b-col sm= "8" >
@@ -170,70 +321,55 @@
  
 </div>
 
-
 </template>
 
 <script>
 
-import gql from 'graphql-tag';
-//GraphQL Query for POSTS
 
-const postsQuery = gql`
-{
-  postses { 
-    
-    status
-    createdAt
-    id
-    date
-    title
-    content {
+//GraphQL Query for POSTS\]
 
-      text
-    }
-    images {
-      id
-      url
-    }
 
-    
-  }
+
   
-}
-  
-`;
+
+
 
 export default {
   
-    data: () => ({ 
-    assets:[],
-    post: [],
-    loading : 0,
-
-
-  }),
-  apollo: {
-    postses: {
-      query: postsQuery,
-      loadingKey :'loading',
-    },
-  },
-
   
-  methods: {
 
-  },
-
-    
-    
-    
-  
 }
 
 
 </script>
 <style scoped>
 
+
+.about_font {
+font-size :20px;
+font-family  : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+letter-spacing: 3.5px;
+line-height: 1.19;
+color:black;
+
+}
+
+.black_and_white{
+
+  background-color :white;
+  
+}
+
+.New_heading {
+  padding-left:15%;
+  padding-right:15%;
+  
+  
+
+}
+.test_feed_header_1{
+  font-family : "GeoBrandBold,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif";
+}
 .mt-heading-indented {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -243,19 +379,37 @@ export default {
     flex: 1 1 auto;
 }
 .promos_stories {
-  display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    
-    font-size: 200%;
-    color : white;
-  
+    font-family: "Impact";
+    font-size: 42px;
+    letter-spacing: 1.5px;
+    line-height: 1.19;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-transform: none;
+    color: black;
 }
 .a_hover {
-  color: azure;
+  color:rgb(161, 106, 167);
 }  
-
+.test_header {
+    margin :0%;
+    font-family:  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 20px;
+    
+    font-weight: 10px;
+    padding-bottom: 10px;
+    line-height: 1.8;
+    color:  black;
+    text-align: center;
+    
   
+    
+    
+    
+    background: none;
+ 
+}
+
 
 .a_link_hover_2 {
 
@@ -263,34 +417,40 @@ export default {
   max-width: 50%;
  
 }
-
-
+.background_color{
+  background-color:none;
+}
+ 
+/deep/ #card-title > card-title {
+  font-size: 20px;
+  
+}
 .general-heading__header {
-    font-family: 'GeoBrandBold';
-    text-transform: uppercase;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    color:rgb(255, 255, 255);
-    padding-top : 8%;
-    padding-bottom: 5%;
-    font-weight: 1000px;
-    font-size: 600px;
+
+
+    font-family: "GeoBrandBold,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif";
+    font-size: 42px;
     letter-spacing: 3.5px;
     line-height: 1.19;
-    margin: 0;
-    text-align: center;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-transform: none;
 }
 
 .card_text {
-    font-family: 'GeoBrandBold';
+    
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     text-transform: uppercase;
-    font-size: 60%;
+    
+    
+    font-size: 20%;
     -webkit-font-smoothing: antialiased;
-    color:rgb(0, 0, 0);
-    background-color: black;
+    color: rgb(129, 120, 109);
+    background-color: rgb(172, 84, 84);
 
 
-    text-align: center;
+    text-align: bottom;
 }
 .card_text_1 {
     font-family: 'Arial Narrow', Arial, sans-serif;
@@ -301,12 +461,16 @@ export default {
     -webkit-font-smoothing: antialiased;
     color:rgb(255, 255, 255);
     background-color: black;
-
-
-    
 }
+
+.button_center_heading {
+  text-align:center
+}
+    
+
 .bg {
-  background-color :black;
+  background-color :'white';
+  background-image : '../assets/Test_1.jpg'
  
 }
 .bg_heder {
@@ -320,7 +484,7 @@ export default {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-weight: 100;
-   font-size: 180px;
+   font-size: 10px;
     letter-spacing: 0;
     letter-spacing: .1px;
     font-size: 25px;
@@ -328,22 +492,35 @@ export default {
     margin: 16px 0 23px;
     text-transform: initial;
 
+
 }
 .general-heading__line {
-    background-color: rgb(255, 255, 255);
+    background-color:rgb(161, 106, 167);
     height: 5px;
     line-height: 10px;
     margin: 1px auto 0;
     width: 100px;
+    background :none;
     
 }
 .general-heading__line_stories {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(161, 106, 167);
     height: 5px;
     line-height: 10px;
     margin: 0px ;
-    width: 50px;
+    width: 160px;
     
+    
+}
+
+.general-heading__line_stories_title {
+    background-color: rgb(161, 106, 167);
+    height: 4px;
+    line-height: 10px;
+    margin: 5px ;
+    width: 600px;
+    margin-left: 140 px;
+    align: center;
     
 }
 .general-heading__line_2 {
@@ -360,7 +537,10 @@ export default {
    max-width : 60%;
     float: right;
 }
+.button_position {
+  
 
+}
 .homepage_container__feed {
     padding-left: 60px;
     padding-right: 60px;
@@ -372,7 +552,7 @@ export default {
     margin-bottom: 50px;
     width: 100%;
     display: block;
-    
+    color:black;
     float: left;
 }
 .homepage_container__body {
@@ -386,6 +566,7 @@ export default {
     flex-direction: column-reverse;
     width: 100%;
     box-sizing: inherit;
+    background-color:none;
     
     
    
@@ -403,6 +584,15 @@ export default {
           
 
     }
+    .card-title {
+      font-size: 13px;
+      text-align: center;
+
+
+    
+      
+    }
+    
     }
 .zoom {
   padding: 10px;
@@ -412,22 +602,24 @@ export default {
   margin: 0 auto;
 }
 .card_body {
-    margin: 0;
+    margin :0%;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 1rem;
+    font-size: 10px;
     font-weight: 400;
     padding-bottom: 20px;
     line-height: 1.8;
-    color: #ffffff;
+    color:  rgb(255, 255, 255);
     text-align: left;
+    text-decoration-color: rgb(255, 255, 255);
     
     
-    background-color: rgb(0, 0, 0);
+    background: none;
 }
+
 .card_body_content {
  
-  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
-
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Arial","Helvetica Neue","Helvetica",sans-serif;
+    font-size: 10px;
       -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -449,11 +641,11 @@ export default {
  
 }
 .text-muted {
-  color :white;
+  color :rgb(0, 0, 0);
 }
 /* [2] Transition property for smooth transformation of images */
 .img-hover-zoom img {
-    transition: transform 0.5s, filter 0.5s ;
+    transition: transform 0.3s, filter 0.3s ;
   
   transform: scale(1.1);
 }
@@ -462,8 +654,18 @@ export default {
 .img-hover-zoom:hover img {
   transform:scale(1.2)
 }
+.background_image {
+  background: url(../assets/test_1_purple.jpg);
+  background-size: cover;
+}
+.container {
+    padding-left:40px;
+    flex: 0 0 auto;
+    padding-right:40px;
 
-
+   background-color:none;
+  
+}
 
 
 </style>
