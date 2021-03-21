@@ -4,9 +4,9 @@
 
 
 
-  <div class = 'black_and_white  '>
+  <div class = 'black_and_white flex '>
   <div  class = "general-heading__header black_and_white"  >
-    <h6 style = "color: black" > Social</h6>
+    <h6 style = "color: black" > </h6>
 <div class = ' black_and_white' >
 
     <b-link  href = 'https://www.facebook.com/Kontrast-103827028267149'>
@@ -20,7 +20,7 @@
   <br>
   <br>
   <a class = "a_hover" href  ="/">
-  <p class = "footer_note" >  Kontrast</p>
+  <p class = "footer_note" > </p>
   </a>
 </div>
   

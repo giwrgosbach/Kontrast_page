@@ -10,33 +10,38 @@
 
 
       <b-col md="12" class="d-flex">
-
-      <p class = "general-heading__line_stories_title  " ></p>
+<p class = "general-heading__line_stories_title line " ></p>
+    
       </b-col>
+       
     </b-row>
- 
+    
 
 
    
     
        <div class = "New_heading ">
-
-        <b-row class = "test_header "> 
-
+  
+        <b-row class = "test_header  "> 
+  
                
 
-  <b-card class  ="test_header "
-  
+  <b-card class  ="test_header   " 
  
-  bg-variant="None"
-  border-variant="light"
+  border = "none"
+  title-color = "white"
+  border-variant="white"
  
+ fluid-grow
   title ="Θέλουμε κοινότητες ελεύθερης έκφρασης και αυτοδιάθεσης των υποκειμένων να ξεπηδούν σε κάθε κοινωνικό χώρο, θέτοντας ένα πλαίσιο συλλογικοποίησης και αμοιβαίας συνύπαρξης που να μας υπενθυμίζει πως κανένα άτομο δεν είναι μόνο του απέναντι στην εκμετάλλευση και την καταπίεση που βιώνει." 
   >
+ 
   
 <div class = "text-center">
-<b-button   variant="outline-dark"  class="text-center" size = "sm"  href="/About"  >Διάβασε περισσότερα</b-button>
+<b-button  variant="outline-light"   class="text-center button_color" size = "sm"  href="/About"  >Λίγα λόγια για τη συνέλευση</b-button>
+
 </div>
+
    </b-card>
  
 
@@ -47,18 +52,25 @@
 
 
   </div>
+  <div class = "line_movement">
+  <b-col cols = "2">
+  <p class = "general-heading__line_stories_title_vertical line_movement" ></p> 
+
+  </b-col>
+  </div>
 <br>
 <b-container class ="container"  >
 
   <b-row >
 
     <b-col   >
-      <p class = "general-heading__line_stories  " ></p>
+    
+      <p class = "general-heading__line_stories" ></p>
       <p class = "promos_stories   "> Κείμενα</p>
       
   <a   class  = "a_hover" href ="/Fascism">
       <b-card   class= " card_body  "
-         border-variant = "light"
+         border-variant = "white"
  
     img-src= "../assets/anti_nazis.jpg"    
 
@@ -77,7 +89,7 @@
 
   >
 <div  class = "card_body_content">
-  <h4 >Ο φασισμός πέθανε, ζήτω ο φασισμός</h4>
+  <h4 class = "feed_keimena">Ο φασισμός πέθανε, ζήτω ο φασισμός</h4>
 
    </div> 
     
@@ -87,7 +99,7 @@
   <a   class  = "a_hover" href ="/No_name">
       <b-card   class= " card_body  "
          bg-variant=""
-        border-variant="light"
+        border-variant="white"
     img-src= "../assets/no_borders.jpg"    
 
 
@@ -104,7 +116,7 @@
 
   >
 <div  class = "card_body_content">
-  <h4 >Γι αυτούς που δεν έχουν όνομα…</h4>
+  <h4 class = "feed_keimena" >Γι αυτούς που δεν έχουν όνομα…</h4>
   
    </div> 
     
@@ -113,8 +125,8 @@
   <a   class  = "a_hover" href ="/Oxi">
       <b-card   class= " card_body  "
          bg-variant=""
-    border-variant="light"
-    img-src= "../assets/Bob_sfouggar.jpg"    
+    border-variant="white"
+    img-src= "../assets/ethnic.jpg"    
 
 
     img-alt="Card Image"
@@ -130,7 +142,7 @@
 
   >
 <div  class = "card_body_content">
-  <h4 >5+1 σημεία γιατί η Μακεδονία δεν είναι μια και δεν είναι ελληνική</h4>
+  <h4 class = "feed_keimena">5+1 σημεία γιατί η Μακεδονία δεν είναι μια και δεν είναι ελληνική</h4>
   
    </div> 
     
@@ -173,18 +185,25 @@
 <br>
 <div class = "button_center" >
 
-<b-button   href ="/posts" size="sm"   variant="outline-dark"  >Περισσότερα</b-button>
+<b-button   href ="/posts" size="sm"  class = "button_color"  variant="outline-light"  >Περισσότερα</b-button>
 </div>
 <br> 
 
     </b-col>
 
 <b-col   class = "col-md-8 col-12 ">
+      
+      
+      <p class = "promos_stories_feed_news   "> Δράσεις-Νέα
+      
+      </p>
+     
+ 
 
 <br class ="mobile-break">
-<br class ="mobile-break">
+
 <a class = "a_link_hover" href ="/View">
-    <b-card  class= " font_header text-center"  style = "color:white"
+    <b-card  class= " font_header text-center image_height"  style = "color:white"
     overlay
     img-src= "../assets/Acts/IMG_20201124_005755.jpg"    
    
@@ -207,102 +226,14 @@
       
     </b-card-text>
   
-  <b-button   href ="/Storm" size="sm"  class=""  variant="outline-light"  >Περισσότερα</b-button>
+  <b-button   href ="/Storm" size="sm"  class="white_buttons"  variant="outline-light"  >Περισσότερα</b-button>
 
 
     
   </b-card>
 </a>
   <br>
-<!--
-  <b-card-group  >
 
-
-
-    <b-card  class= " promo_stories img-hover-zoom"
-
-         bg-variant="none"
-
-    img-src= "../assets/Solidarity.jpg"
-    img-alt="Card Image"
-    overlay
-    img-height="200px;"
-    text-variant="white"
-    title="titlos"
-    no-body
-    sub-title= "e3isou ena mikro keimeno "
-    border-variant="dark"
-    
-    sub-title-text-variant="white"
-  
-  >
- 
-     
-    <b-card-text >
-      
-    </b-card-text>
-    <b-button size="md" variant="secondary"  >Διαβασε περισσότερα</b-button>
-
-  </b-card>
-
-<br>  
-
-    <b-card  class= " promo_stories img-hover-zoom"
-
-         bg-variant="none"
-
-    img-src= "../assets/Solidarity.jpg"
-    img-alt="Card Image"
-    overlay
-    img-height="200px;"
-    text-variant="white"
-    title="titlos"
-    no-body
-    sub-title= "e3isou ena mikro keimeno "
-    border-variant="dark"
-    
-    sub-title-text-variant="white"
-  
-  >
- 
-     
-    <b-card-text >
-      
-    </b-card-text>
-    <b-button size="md" variant="secondary"  >Διαβασε περισσότερα</b-button>
-
-  </b-card>
-   <b-card  class= " promo_stories img-hover-zoom"
-
-         bg-variant="none"
-
-    img-src= "../assets/Solidarity.jpg"
-    img-alt="Card Image"
-    overlay
-    img-height="200px;"
-    text-variant="white"
-    title="titlos"
-    no-body
-    sub-title= "e3isou ena mikro keimeno "
-    border-variant="dark"
-    
-    sub-title-text-variant="white"
-  
-  >
- 
-     
-    <b-card-text >
-      
-    </b-card-text>
-    <b-button size="md" variant="secondary"  >Διαβασε περισσότερα</b-button>
-
-  </b-card>
-
-
-
-  
-  </b-card-group>
--->
 
 </b-col>
 
@@ -346,7 +277,7 @@ export default {
 
 
 .about_font {
-font-size :20px;
+font-size :40px;
 font-family  : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 letter-spacing: 3.5px;
 line-height: 1.19;
@@ -364,6 +295,7 @@ color:black;
 .New_heading {
   padding-left:15%;
   padding-right:15%;
+  
   
   
 
@@ -389,16 +321,27 @@ color:black;
     text-transform: none;
     color: black;
 }
+.promos_stories_feed_news {
+    font-family: "Impact";
+    font-size: 42px;
+    letter-spacing: 1.5px;
+    line-height: 1.19;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-transform: none;
+    color: black;
+   text-align:right;
+}
 .a_hover {
   color:rgb(161, 106, 167);
 }  
 .test_header {
     margin :0%;
-    font-family:  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: 'Lucida Sans', ;
     font-size: 20px;
     
     font-weight: 10px;
-    padding-bottom: 10px;
+    margin-bottom :10px;
     line-height: 1.8;
     color:  black;
     text-align: center;
@@ -406,8 +349,8 @@ color:black;
   
     
     
+   
     
-    background: none;
  
 }
 
@@ -423,14 +366,14 @@ color:black;
 }
  
 /deep/ #card-title > card-title {
-  font-size: 20px;
+  font-size: 40px;
   
 }
 .general-heading__header {
 
 
     font-family: "GeoBrandBold,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif";
-    font-size: 42px;
+    font-size: 20px;
     letter-spacing: 3.5px;
     line-height: 1.19;
     -moz-osx-font-smoothing: grayscale;
@@ -445,7 +388,7 @@ color:black;
     text-transform: uppercase;
     
     
-    font-size: 20%;
+    font-size:10px;
     -webkit-font-smoothing: antialiased;
     color: rgb(129, 120, 109);
     background-color: rgb(172, 84, 84);
@@ -458,7 +401,7 @@ color:black;
     text-transform: lowercase;
     margin-top :2;
     text-align-last: left;
-    font-size: 20%;
+    font-size: 20px;
     -webkit-font-smoothing: antialiased;
     color:rgb(255, 255, 255);
     background-color: black;
@@ -485,7 +428,7 @@ color:black;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-weight: 100;
-   font-size: 10px;
+   font-size: 8px;
     letter-spacing: 0;
     letter-spacing: .1px;
     font-size: 25px;
@@ -497,16 +440,33 @@ color:black;
 }
 .general-heading__line {
     background-color:rgb(161, 106, 167);
-    height: 5px;
+    height: 4px;
     line-height: 10px;
     margin: 1px auto 0;
     width: 100px;
     background :none;
     
 }
+.general-heading__line_stories_title_vertical {
+    background-color:rgb(161, 106, 167);
+    height: 120px;
+    line-height: 10px;
+    margin: 1px auto 0;
+    width: 5px;
+    position:relative;
+   
+    
+   
+    
+   
+    
+}
+.line_movement{
+  align:left;
+}
 .general-heading__line_stories {
     background-color: rgb(161, 106, 167);
-    height: 5px;
+    height: 4px;
     line-height: 10px;
     margin: 0px ;
     width: 160px;
@@ -518,10 +478,22 @@ color:black;
     background-color: rgb(161, 106, 167);
     height: 4px;
     line-height: 10px;
-    margin: 5px ;
-    width: 600px;
-    margin-left: 140 px;
+    margin:15px;
+    width: 500px;
+    
     align: center;
+    
+    
+}
+.general-heading__line_stories_title_feed_news {
+    background-color: rgb(161, 106, 167);
+    height: 4px;
+    line-height: 10px;
+    margin: 0px ;
+    width: 200px;
+ 
+
+    
     
 }
 .general-heading__line_2 {
@@ -585,13 +557,23 @@ color:black;
           
 
     }
+            .line {
+          width:340px;
+        }
+    
+    
     .card-title {
       font-size: 13px;
       text-align: center;
 
-
+    
     
       
+    }
+    .image_height {
+      .img{
+        height:200px;
+      }
     }
     
     }
@@ -605,11 +587,11 @@ color:black;
 .card_body {
     margin :0%;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 10px;
+    font-size: 20pt;
     font-weight: 400;
     padding-bottom: 20px;
     line-height: 1.8;
-    color:  rgb(255, 255, 255);
+    color:  rgb(161, 106, 167);
     text-align: left;
     text-decoration-color: rgb(255, 255, 255);
     
@@ -619,8 +601,8 @@ color:black;
 
 .card_body_content {
  
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Arial","Helvetica Neue","Helvetica",sans-serif;
-    font-size: 10px;
+  font-family:;
+    font-size: 2pt;
       -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -631,6 +613,12 @@ color:black;
     padding-left:25px;
     margin-bottom:3px;
     
+    
+
+}
+.button_color {
+  background-color: rgb(161, 106, 167);
+  
 
 }
 
@@ -667,6 +655,9 @@ color:black;
 
    background-color:none;
   
+}
+.feed_keimena {
+  font-size : 16px;
 }
 
 

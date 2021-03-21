@@ -32,12 +32,13 @@
     img-alt="Card Image"
     img-height="300px;"
     text-variant="white"
-    title= "Λίγα λόγια για τη συνέλευση" 
+    
     
     sub-title-text-variant="white"
     style = "max-width:  ;"
 
   >
+  <h4>Λίγα λόγια για τη συνέλευση </h4>
     <b-card-text >
   
     </b-card-text>
@@ -75,18 +76,18 @@
 
 
    <a href ='/Oxi'>
-  <b-card  class= "text-center img-hover-zoom bg test_title "
+  <b-card id ="last_card" class= " img-hover-zoom bg   "
          bg-variant="white"
-    overlay
-    img-src="../assets/Bob_sfouggar.jpg"
-
+    img-bottom
+    img-src="../assets/ethnic.jpg"
+    title-variant = "card_title"
     img-alt="Card Image"
     img-height="300px;"
-    text-variant="white"
+    text-variant ="dark"
     title= "5+1 σημεία γιατί η Μακεδονία δεν είναι μια και δεν είναι ελληνική
 (και γιατί δεν παραχαράσσεται η ιστορία)"
    
-    style = "max-width:  ;"
+    
 
   >
     <b-card-text >
@@ -222,6 +223,14 @@ export default {
 
 .background_image {
   background: url(../assets/test_1_purple.jpg);
+}
+.titles {
+  font-size: 42px;
+  font-family: 'GeoEditBold', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+}
+.card-title {
+    font-size: 28px;
+    
 }
 
 </style>

@@ -1,21 +1,23 @@
 <template  >
 <div id = "SinglePost" class="bg"  >
+<br>
   <b-container  >
 
     <b-col cols ="12">
  
-  <b-card  class =  "bg" 
+  <b-card style ="" class =  "bg" 
    
 
    
    
    img-src = "../assets/Acts/IMG_20201124_005755.jpg"
     img-alt="Card Image"
-    img-height="400px;"
+    img-height="500px;"
+    img-width ="100px;"
     text-variant="dark"
     
     sub-title
-    style = "max-width:  ;"
+    
     border-variant="white"
 
   >

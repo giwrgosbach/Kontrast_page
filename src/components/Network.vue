@@ -2,8 +2,9 @@
 
 <div  id = "Posts" class = "black_and_white">
 <br>
-   
- <div  class = "general-heading__header"  >
+  
+ <div  class = "general-heading__header_posters heading_title"  >
+ 
     <H1 > ΔΡΑΣΕΙΣ </h1>
    
 <p class = "general-heading__line"></p>
@@ -11,7 +12,8 @@
 
  
   </div>
-   
+   <br>
+   <br>
      <div  class = "general-heading bg"  >
   
   </div>
@@ -23,7 +25,7 @@
   <b-col   order = "1" >
     
    <a href ='/Storm'>
-  <b-card  class= "text-center img-hover-zoom bg"
+  <b-card  class= "text-center img-hover-zoom bg break"
          bg-variant="dark"
     overlay
     img-src="../assets/Acts/IMG_20201124_005755.jpg"
@@ -34,19 +36,22 @@
     title= "Τι ωραία καταιγίδα που έρχεται..."
     sub-title=""
     sub-title-text-variant="white"
-    style = "max-width:  ;"
+    
 
   >
     <b-card-text >
       
     </b-card-text>
-    <b-button style ="margin-top : 20%;" id primary>Διαβασε περισσότερα</b-button>
+    <b-button style ="margin-top : 30%;" class ="button_color" id variant ="outline-light">Διαβασε περισσότερα</b-button>
   
   </b-card>
 </a>
 </b-col>
+
 <b-col>
+
      <a href ='/'>
+    
   <b-card  class= "text-center img-hover-zoom bg"
          bg-variant="dark"
     overlay
@@ -58,7 +63,7 @@
     title= ""
     sub-title=""
     sub-title-text-variant="white"
-    style = "max-width:  ;"
+    
 
   >
     <b-card-text >
@@ -70,25 +75,28 @@
 </a>
 
 </b-col>
+
+
 
 </b-row>
 <br>
   <b-row cols = "1"  fluid = "md">
-  <b-col  cols = "8" >
+  <b-col  cols = "12" cols-sm = "1" >
     
    <a href ='/'>
   <b-card  class= "text-center img-hover-zoom bg"
-         bg-variant="dark"
-    overlay
+         bg-variant="white"
+         border-variant = "white"
+  
     img-src="../assets/Acts/pano_3.jpg"
-
+    img-left
     img-alt="Card Image"
     img-height="300px;"
-    text-variant="white"
+    text-variant="dark"
     title= ""
     sub-title=""
-    sub-title-text-variant="white"
-    style = "max-width:  ;"
+    sub-title-text-variant="black"
+    
 
   >
     <b-card-text >
@@ -98,8 +106,11 @@
   
   </b-card>
 </a>
+
 </b-col>
-<b-col >
+
+<b-col cols = "8" class = "full_col" >
+<br>
      <a href ='/'>
   <b-card  class= "text-center img-hover-zoom bg"
          bg-variant="dark"
@@ -182,15 +193,14 @@ export default {
 }
 
 
-
-.general-heading__header {
+.general-heading__header_posters {
     font-family: 'GeoBrandBold';
     text-transform: uppercase;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     color:black;
-    padding-top : 14%;
-    padding-bottom: 5%;
+    padding-top : 6.8%;
+    padding-bottom: 1%;
     font-weight: 1000px;
     font-size: 600px;
     letter-spacing: 3.5px;
@@ -243,9 +253,30 @@ export default {
     font-size: 38px;
     line-height: 1.211;
 }
+.button_color {
+  background-color: rgb(161, 106, 167);
+  
 
+}
 .background_image {
   background: url(../assets/test_1_purple.jpg);
 }
+      @media screen and (min-width: 720px)  {
+        .mobile-break { display: none; }
+        
+        
+        
+    }
+    @media screen and (max-width: 720px) {
+        .button_center {
+          text-align: center; 
+        }
+        .break {
+          margin-top:20px;
+        }
+
+        .heading_title {
+          padding-top: 14%;
+        }}
 
 </style>

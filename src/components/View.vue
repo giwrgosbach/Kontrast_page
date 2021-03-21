@@ -27,11 +27,11 @@
     <div class="images black_and_white" v-viewer >
   
         <b-row fluid = "sm"  >
-        <b-col cols="12" md="8" >
+        <b-col cols="12" md=  "6"  >
        
       <b-img-lazy fluid-grow  src="../assets/Kamia_anoxh.jpg" style = "height:80%;" />
       <br>
-            <p class = "general-heading__line_posters_second"></p>
+            
       </b-col >
       <b-col 
  >  <b-img-lazy fluid-grow  src="../assets/Solidarity.jpg" style = "height:80%; flex" />
@@ -44,7 +44,7 @@
         </b-row>
 
         <b-row class= "containe_posters">
-  <b-img  lazy src="../assets/No_name.jpg" style = "height:80%; flex" />
+  <b-img  lazy src="../assets/No_name.jpg" style = "height:100%; flex" />
         
        
         </b-row>

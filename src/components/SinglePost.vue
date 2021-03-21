@@ -163,7 +163,7 @@ export default {
   .css-exrw3m {
     
    
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-family: georgia,'times new roman',times,serif;
     font-size: 1.125rem;
     line-height: 1.5625rem;
 
