@@ -54,7 +54,7 @@
   </div>
   <div class = "line_movement">
   <b-col cols = "2">
-  <p class = "general-heading__line_stories_title_vertical line_movement" ></p> 
+
 
   </b-col>
   </div>
