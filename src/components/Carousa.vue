@@ -6,17 +6,8 @@
 <br>
 <br>
 <br>
-    <b-row  >
-
-
-      <b-col md="12" class="d-flex">
-<p class = "general-heading__line_stories_title line " ></p>
     
-      </b-col>
-       
-    </b-row>
-    
-
+ 
 
    
     
@@ -193,7 +184,7 @@
 
 <b-col   class = "col-md-8 col-12 ">
       
-      
+      <div class = "vertical"></div>
       <p class = "promos_stories_feed_news   "> Δράσεις-Νέα
       
       </p>
@@ -469,7 +460,7 @@ color:black;
     height: 4px;
     line-height: 10px;
     margin: 0px ;
-    width: 160px;
+    width: 60px;
     
     
 }
@@ -481,8 +472,7 @@ color:black;
     margin:15px;
     width: 500px;
     
-    align: center;
-    
+        
     
 }
 .general-heading__line_stories_title_feed_news {
@@ -490,7 +480,7 @@ color:black;
     height: 4px;
     line-height: 10px;
     margin: 0px ;
-    width: 200px;
+    width:80px;
  
 
     
@@ -668,5 +658,24 @@ color:black;
   font-size : 16px;
 }
 
+.vertical {
+      background: rgb(161, 106, 167);;
+    content: "";
+    display: block;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 5px;
+    flex: 0 0 5px;
+
+
+    position: relative;
+        background-color: rgb(161, 106, 167);
+        
+    height: 50px;
+    margin-top:2px;
+    float:right;
+    width: 4px;
+    padding-left:5px;
+    margin-left:5px;
+}
 
 </style>

@@ -4,16 +4,16 @@
 
 
 
-  <div class = 'black_and_white flex '>
+  <div class = 'bg_black '>
   <div  class = "general-heading__header black_and_white"  >
     <h6 style = "color: black" > </h6>
-<div class = ' black_and_white' >
-
-    <b-link  href = 'https://www.facebook.com/Kontrast-103827028267149'>
+<div  >
+    <div class = "bg_black">
+    <b-link class = "bg_black" href = 'https://www.facebook.com/Kontrast-103827028267149'>
      <b-img class = 'icons'  img src = '../assets/fb.png'> </b-img>
      </b-link>
     <b-link style = "padding-left: 2%;"  variant = 'black_and_white' href = 'https://www.instagram.com/kontras.t?igshid=nj1uknt1hb47'><b-img class = 'icons'  img src = '../assets/ig.png'>giati den fainetai </b-img></b-link>
-    
+    </div>
 
 
 
@@ -130,6 +130,9 @@
 }
 .footnote {
   padding-top :12px
+}
+.bg_black {
+  background-color : white;
 }
 
 .footer {
