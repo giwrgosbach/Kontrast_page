@@ -27,7 +27,7 @@
   
   >
  
-  <h4 class = "new_header_mobile" >Θέλουμε κοινότητες ελεύθερης έκφρασης και αυτοδιάθεσης των υποκειμένων να ξεπηδούν σε κάθε κοινωνικό χώρο, θέτοντας ένα πλαίσιο συλλογικοποίησης και αμοιβαίας συνύπαρξης που να μας υπενθυμίζει πως κανένα άτομο δεν είναι μόνο του απέναντι στην εκμετάλλευση και την καταπίεση που βιώνει. </h4>
+  <h4 class = "new_header_mobile test_header" >Θέλουμε κοινότητες ελεύθερης έκφρασης και αυτοδιάθεσης των υποκειμένων να ξεπηδούν σε κάθε κοινωνικό χώρο, θέτοντας ένα πλαίσιο συλλογικοποίησης και αμοιβαίας συνύπαρξης που να μας υπενθυμίζει πως κανένα άτομο δεν είναι μόνο του απέναντι στην εκμετάλλευση και την καταπίεση που βιώνει. </h4>
 <div class = "text-center">
 <b-button  variant="outline-light"   class="text-center button_color" size = "sm"  href="/About"  >Λίγα λόγια για τη συνέλευση</b-button>
 
@@ -350,6 +350,9 @@ export default {
 
 </script>
 <style  >
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Indie+Flower&display=swap');
+
 
 
 .about_font {
@@ -413,12 +416,12 @@ color:black;
 }  
 .test_header {
     margin :0%;
-    font-family: 'Lucida Sans', ;
+   font-family: Arial, Roboto, sans-serif  !important;
     font-size: 20px;
     
-    font-weight: 10px;
+   
     margin-bottom :10px;
-    line-height: 1.8;
+    line-height: 1.6;
     color:  black;
     text-align: center;
     
@@ -705,6 +708,7 @@ color:black;
 
 .img-hover-zoom {
   /* [1.1] Set it as per your need */
+  
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
   text-emphasis: muted;
  
@@ -717,12 +721,12 @@ color:black;
 .img-hover-zoom img {
     transition: transform 0.6s, filter 0.3s ;
   
-  transform: scale(0.5.1);
+  transform: scale(1.5.1)!important ;
 }
 
 /* [3] Finally, transforming the image when container gets hovered */
 .img-hover-zoom:hover img {
-  transform:scale(1.2)
+  transform:scale(1.2) !important;
 }
 .background_image {
   background: url(../assets/test_1_purple.jpg);
@@ -738,7 +742,9 @@ color:black;
   
 }
 .feed_keimena {
-  font-size : 16px;
+  font-size : 18px;
+  font-family: Arial, Roboto, sans-serif  !important;
+  font-weight :500;
 }
 
 .vertical {
