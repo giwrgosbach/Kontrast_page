@@ -193,14 +193,15 @@
 
 <br class ="mobile-break">
 
-<a class = "a_link_hover" href ="/View">
-    <b-card  class= " font_header text-center image_height"  style = "color:white"
+
+<a class = "a_link_hover" href ="/Storm">
+    <b-card  class= " font_header text-center img-hover-zoom "  style = "color:white"
     overlay
     img-src= "../assets/Acts/IMG_20201124_005755.jpg"    
    
     img-alt="Card Image"
     img-width ="100%;"
-    img-height="400px;"
+    img-height="420px;"
     border-variant="white"
    
     img-top
@@ -217,12 +218,98 @@
       
     </b-card-text>
   
-  <b-button   href ="/Storm" size="sm"  class="white_buttons"  variant="outline-light"  >Περισσότερα</b-button>
+  <b-button   href ="/Storm" size="sm"  class="button_color"  variant="outline-light"  >Περισσότερα</b-button>
+ 
+
+    
+  </b-card>
+</a>
+<br class ="mobile-break">
+<br>
+<b-card-group columns >
+<a class = "a_link_hover" href ="/Network">
+    <b-card  class= " font_header text-center img-hover-zoom "  style = "color:white"
+    overlay
+    img-src= "../assets/Acts/Pano_4.jpg"    
+   
+    img-alt="Card Image"
+    
+  img-width ="100%;"
+  img-height="280px;"
+    border-variant="white"
+    no-body
+    img-top
+    
+    title = "" 
+    
+   align = ''
+   
+   
+  
+
+  >
+
 
 
     
   </b-card>
 </a>
+<a class = "a_link_hover" href ="/Network">
+    <b-card  class= " font_header text-center img-hover-zoom "  style = "color:white"
+    overlay
+    img-src= "../assets/Acts/pano_3.jpg"    
+   
+    img-alt="Card Image"
+    
+  img-width ="100%;"
+  img-height="280px;"
+    border-variant="white"
+    no-body
+    img-top
+    
+    title = "" 
+    
+   align = ''
+   
+   
+  
+
+  >
+
+
+
+    
+  </b-card>
+</a>
+<a class = "a_link_hover" href ="/Network">
+    <b-card  class= " font_header text-center img-hover-zoom"  style = "color:white"
+    overlay
+    img-src= "../assets/Acts/pano_5.jpg"    
+   
+    img-alt="Card Image"
+    
+  img-width ="100%;"
+  img-height="280px;"
+    border-variant="white"
+    no-body
+    img-top
+    
+    title = "" 
+    
+   align = ''
+   
+   
+  
+
+  >
+
+
+
+    
+  </b-card>
+</a>
+
+</b-card-group>
   <br>
 
 
@@ -232,10 +319,8 @@
 <br>
 
     
-    <b-col sm= "8" >
-
       
-    </b-col>
+
    
   
   </b-row>
@@ -569,14 +654,15 @@ color:black;
       
     }
     .image_height {
-      .img{
-        height:200px;
-      }
+      
+        height:320px;
+        
+      
     }
     
     }
 .zoom {
-  padding: 10px;
+  
    /* Animation */
   
   height: 200px;
@@ -632,9 +718,9 @@ color:black;
 }
 /* [2] Transition property for smooth transformation of images */
 .img-hover-zoom img {
-    transition: transform 0.3s, filter 0.3s ;
+    transition: transform 0.6s, filter 0.3s ;
   
-  transform: scale(1.1);
+  transform: scale(0.5.1);
 }
 
 /* [3] Finally, transforming the image when container gets hovered */

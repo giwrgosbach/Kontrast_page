@@ -3,7 +3,7 @@
 <div  id = "Posts" class = "black_and_white">
 <br>
   
- <div  class = "general-heading__header_posters heading_title"  >
+ <div  class = "general-heading__header_posters heading_title "  >
  
     <H1 > ΔΡΑΣΕΙΣ </h1>
    
@@ -80,38 +80,62 @@
 
 </b-row>
 <br>
-  <b-row cols = "1"  fluid = "md">
-  <b-col  cols = "12" cols-sm = "1" >
-    
-   <a href ='/'>
-  <b-card  class= "text-center img-hover-zoom bg"
-         bg-variant="white"
-         border-variant = "white"
+  <b-row  fluid = "md">
   
+  <b-col   >
+         <a href ='/'>
+     <b-card-group deck>
+  <b-card  class= "text-center img-hover-zoom bg"
+         bg-variant="dark"
+    overlay
     img-src="../assets/Acts/pano_3.jpg"
-    img-left
+
     img-alt="Card Image"
     img-height="300px;"
-    text-variant="dark"
+    text-variant="white"
     title= ""
     sub-title=""
-    sub-title-text-variant="black"
-    
+    sub-title-text-variant="white"
+    style = "max-width:  ;"
 
   >
     <b-card-text >
       
     </b-card-text>
-    
-  
+   
   </b-card>
+    <b-card  class= "text-center img-hover-zoom bg"
+         bg-variant="dark"
+    overlay
+    img-src="../assets/Acts/pano_6.jpg"
+
+    img-alt="Card Image"
+    img-height="300px;"
+    text-variant="white"
+    title= ""
+    sub-title=""
+    sub-title-text-variant="white"
+    style = "max-width:  ;"
+
+  >
+    <b-card-text >
+      
+    </b-card-text>
+   
+  </b-card>
+  </b-card-group>
 </a>
+
+
+
+
 
 </b-col>
 
-<b-col cols = "8" class = "full_col" >
+<b-col cols = "12" >
 <br>
      <a href ='/'>
+     <b-card-group deck>
   <b-card  class= "text-center img-hover-zoom bg"
          bg-variant="dark"
     overlay
@@ -131,6 +155,26 @@
     </b-card-text>
    
   </b-card>
+    <b-card  class= "text-center img-hover-zoom bg"
+         bg-variant="dark"
+    overlay
+    img-src="../assets/Acts/pano_5.jpg"
+
+    img-alt="Card Image"
+    img-height="300px;"
+    text-variant="white"
+    title= ""
+    sub-title=""
+    sub-title-text-variant="white"
+    style = "max-width:  ;"
+
+  >
+    <b-card-text >
+      
+    </b-card-text>
+   
+  </b-card>
+  </b-card-group>
 </a>
 
 </b-col>
@@ -178,20 +222,20 @@ export default {
 .img-hover-zoom {
   /* [1.1] Set it as per your need */
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  text-emphasis: muted;
 }
 
 /* [2] Transition property for smooth transformation of images */
 .img-hover-zoom img {
-    transition: transform 0.3s, filter 0.3s ;
+    transition: transform 0.6s, filter 0.3s ;
   
-  transform: scale(1.1);
+  transform: scale(0.5.1);
 }
 
 /* [3] Finally, transforming the image when container gets hovered */
 .img-hover-zoom:hover img {
-  transform: scale(1,1);
+  transform:scale(1.2)
 }
-
 
 .general-heading__header_posters {
     font-family: 'GeoBrandBold';
@@ -273,6 +317,9 @@ export default {
         }
         .break {
           margin-top:20px;
+        }
+        .line {
+          width:40px;
         }
 
         .heading_title {

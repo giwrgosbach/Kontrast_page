@@ -4,21 +4,23 @@
 
 
 
-  <div class = 'bg_black '>
+
+  
   <div  class = "general-heading__header black_and_white"  >
-    <h6 style = "color: black" > </h6>
-<div  >
+
+
     <div class = "bg_black">
-    <b-link class = "bg_black" href = 'https://www.facebook.com/Kontrast-103827028267149'>
+    <p class = "custom_footer_note" style = "color :black" > Επικοινωνiα  </p>
+    <b-link  href = 'https://www.facebook.com/Kontrast-103827028267149'>
      <b-img class = 'icons'  img src = '../assets/fb.png'> </b-img>
      </b-link>
     <b-link style = "padding-left: 2%;"  variant = 'black_and_white' href = 'https://www.instagram.com/kontras.t?igshid=nj1uknt1hb47'><b-img class = 'icons'  img src = '../assets/ig.png'>giati den fainetai </b-img></b-link>
-    </div>
+    <b-link style = "padding-left: 2%;"  variant = 'black_and_white' href = 'mailto:syneleysikontrast@gmail.com'><b-img class = 'icons'  img src = '../assets/mail.png'>giati den fainetai </b-img></b-link>
 
 
 
-  <br>
-  <br>
+
+
   <a class = "a_hover" href  ="/">
   <p class = "footer_note" > </p>
   </a>
@@ -28,7 +30,7 @@
    
    
   
-  </div>
+
 
 
 
@@ -74,6 +76,9 @@
 
 .bg {
   background-color : black
+}
+.custom_footer_note {
+  font-size: 20px;
 }
 .fa {
   align-content: center;
@@ -133,6 +138,7 @@
 }
 .bg_black {
   background-color : white;
+  padding-top:80px;
 }
 
 .footer {
@@ -140,5 +146,6 @@
   font-weight :20px;
   font-size : 22px;
   font-family : ""Segoe UI","Roboto","Arial","Helvetica Neue","Helvetica",sans-serif" 
+  
 }
 </style>

@@ -5,7 +5,7 @@
 
     <b-col cols ="12">
  
-  <b-card style ="" class =  "bg" 
+  <b-card style ="" class =  "bg image_height" 
    
 
    
@@ -123,9 +123,14 @@ export default {
     @media screen and (max-width: 720px) {
         .button_center {
           text-align: center; 
+        
           
 
     }
+    .image_height {
+      .img{
+      height:280px;
+    }}
     .card-title {
       font-size: 13px;
       text-align: center;

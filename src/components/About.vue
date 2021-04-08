@@ -4,14 +4,14 @@
 
     <b-col cols ="12">
  
-  <b-card  class =  "bg" 
+  <b-card  class =  "image_height" 
    
 
    
    
    img-src = "../assets/kontrast_logo_black.png"
     img-alt="Card Image"
-    img-height="200px;"
+    img-height = "200px;"
     text-variant="dark"
     
     sub-title
@@ -102,4 +102,42 @@ export default {
     width: 100%;
   
   }
+    @media screen and (min-width: 720px)  {
+        .mobile-break { display: none; }
+        
+        
+        
+    }
+    @media screen and (max-width: 720px) {
+        .button_center {
+          text-align: center; 
+          
+
+    }
+            .line {
+          width:340px;
+        }
+    
+    
+    .card-title {
+      font-size: 13px;
+      text-align: center;
+
+    
+    
+      
+    }
+        .new_header_mobile {
+      font-size: 13px;
+      text-align: center;
+
+    
+    
+      
+    }
+        .image_height {
+          padding-top :100px;
+      
+    }
+    }
 </style>
