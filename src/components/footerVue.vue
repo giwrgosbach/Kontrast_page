@@ -6,7 +6,7 @@
 
 
   
-  <div  class = "general-heading__header black_and_white"  >
+  <div  class = "text-center black_and_white"  >
 
 
     <div class = "bg_black">
@@ -21,7 +21,7 @@
 
 
 
-  <a class = "a_hover" href  ="/">
+  <a class = "" href  ="/">
   <p class = "footer_note" > </p>
   </a>
 </div>
@@ -55,7 +55,7 @@
 </script>
 
 
-<style >
+<style  >
 
 /* Style all font awesome icons */
 
@@ -68,10 +68,7 @@
   color: black; 
   text-decoration: white;
 }
- a, a:hover, a:focus, a:active {
-      text-decoration: none;
-      color: black;
- }
+
 
 
 .bg {

@@ -4,7 +4,7 @@
 
     <b-col cols ="12">
  
-  <b-card  class =  "image_height" 
+  <b-card  class =  "bg image_height" 
    
 
    

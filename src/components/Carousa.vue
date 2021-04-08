@@ -57,7 +57,7 @@
     <b-col   >
     
       <p class = "general-heading__line_stories" ></p>
-      <p class = "promos_stories   "> Κείμενα</p>
+      <p class = "promos_stories  "> Κείμενα</p>
       
   <a   class  = "a_hover" href ="/Fascism">
       <b-card   class= " card_body  "
@@ -80,7 +80,7 @@
 
   >
 <div  class = "card_body_content">
-  <h4 class = "feed_keimena">Ο φασισμός πέθανε, ζήτω ο φασισμός</h4>
+  <h4 class = "feed_keimena ">Ο φασισμός πέθανε, ζήτω ο φασισμός</h4>
 
    </div> 
     
@@ -349,7 +349,7 @@ export default {
 
 
 </script>
-<style scoped>
+<style  >
 
 
 .about_font {
@@ -409,7 +409,7 @@ color:black;
    text-align:right;
 }
 .a_hover {
-  color:rgb(161, 106, 167);
+  color:rgb(161, 106, 167) !important; 
 }  
 .test_header {
     margin :0%;
@@ -441,10 +441,7 @@ color:black;
   background-color:none;
 }
  
-/deep/ #card-title > card-title {
-  font-size: 40px;
-  
-}
+
 .general-heading__header {
 
 
@@ -493,7 +490,7 @@ color:black;
   background-image : '../assets/Test_1.jpg'
  
 }
-.bg_heder {
+.bg_header {
   
  
  background-size:100% auto;

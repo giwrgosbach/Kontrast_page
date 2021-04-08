@@ -2,7 +2,7 @@
 <div class= "mx-auto" style="body{padding-top:10px;}" >
   <b-navbar toggleable="xl" type="light" variant="white" fixed ="top" class = "navbg navbar_font navbar-header"
   >
-    <b-navbar-brand href="/" >Kontrast</b-navbar-brand>
+    <b-navbar-brand href="/" style = "font-size : 32px;"  >Kontrast</b-navbar-brand>
 
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -12,7 +12,7 @@
     
       <b-navbar-nav>
       
-    <div class = "general-heading__line_stories_title " >
+    <div class = "general-heading__line_stories_title_navbar " >
   
     </div>
         <b-nav-item v-bind:href ="'/posts'" >Κείμενα</b-nav-item>
@@ -65,7 +65,7 @@ export default {
 
 </script>
 
-<style scoped>
+<style >
 .navbg {
     
       box-shadow: -6px 0 white, 6px 0 rgb(255, 255, 255), 1px 3px 6px rgba(243, 243, 243, 0.15);
@@ -78,12 +78,12 @@ export default {
   font-size:20px;
 }
 .navbar-brand {
-  font-size : 32px;
+  font-size : 42px;
   margin-bottom:2px;
 }
 .nav-item :hover  { color:rgb(161, 106, 167) !important; }
 
-.general-heading__line_stories_title {
+.general-heading__line_stories_title_navbar {
     background-color: rgb(161, 106, 167);
     height: 4px;
     line-height: 10px;

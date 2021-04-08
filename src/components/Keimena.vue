@@ -75,7 +75,7 @@
 
 
 
-   <a href ='/Oxi'>
+   <a class = "a_hover" href ='/Oxi'>
   <b-card id ="last_card" class= " img-hover-zoom bg   "
          bg-variant="white"
     img-bottom
@@ -127,7 +127,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style >
 .bg {
   background-color :black
 }
