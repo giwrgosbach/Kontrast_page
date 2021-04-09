@@ -95,7 +95,7 @@
   </b-card>
 </a>
 <br>
-  <a class = "a_hover" href ='/No_name '>
+  <a class = "a_hover" href ='/Fascism '>
   <b-card  class= " img-hover-zoom bg"
          bg-variant="white"
     img-bottom
