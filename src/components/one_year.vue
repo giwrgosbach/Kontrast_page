@@ -19,7 +19,7 @@
     border-variant="white"
 
   >
-            <h2 class = "header text-center  "> Προσπαθώντας μια αποτίμηση ενός χρόνου πανδημίας
+            <h2 class = "header text-center mobile_font  "> Προσπαθώντας μια αποτίμηση ενός χρόνου πανδημίας
 				</h2>
         <br>
             <b-card-text  >
@@ -248,6 +248,9 @@ export default {
     width: 100%;
 
   
+  }
+  .mobile_font {
+    font-size: 30px;
   }
     .card-title {
       font-size: 13px;

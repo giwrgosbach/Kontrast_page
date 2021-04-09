@@ -23,15 +23,15 @@
    
   <b-col  cols = "12" >
     
-   <a href ='/About'>
+   <a class ="a_hover" href ='/About'>
   <b-card  class= " img-hover-zoom bg"
-         bg-variant="dark"
-    overlay
+         bg-variant="white"
+    img-bottom
     img-src="../assets/kontrast_logo_black.png"
 
     img-alt="Card Image"
     img-height="300px;"
-    text-variant="white"
+    text-variant="dark"
     
     
     sub-title-text-variant="white"
@@ -48,22 +48,23 @@
 </a>
  
 <br>
-    <a href ='/one_year'>
+    <a class = 
+    "a_hover" href ='/one_year'>
   <b-card  class= " img-hover-zoom bg"
-         bg-variant="dark"
-    overlay
+         bg-variant="white"
+    img-bottom
     img-src="../assets/menoume.png"
 
     img-alt="Card Image"
     img-height="300px;"
-    text-variant="white"
+    text-variant="dark"
     
     
-    sub-title-text-variant="white"
+    sub-title-text-variant=""
     style = "max-width:  ;"
 
   >
-  <h4 style = "padding-top:200px;">Προσπαθώντας μια αποτίμηση ενός χρόνου πανδημίας</h4>
+  <h4 >Προσπαθώντας μια αποτίμηση ενός χρόνου πανδημίας</h4>
     <b-card-text >
   
     </b-card-text>
@@ -266,9 +267,7 @@ export default {
     line-height: 1.211;
 }
 
-.background_image {
-  background: url(../assets/test_1_purple.jpg);
-}
+
 .titles {
   font-size: 42px;
   font-family: 'GeoEditBold', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
