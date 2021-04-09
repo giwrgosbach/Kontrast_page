@@ -191,17 +191,18 @@ export default {
     height : 20%;
 
   }
-  .mobile_text {
+      .css-exrw3m {
     
    
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
-    font-size: 15px;
+    font-size: 1.125rem;
     line-height: 1.5625rem;
     text-align :justify;
-    width: 100%;
 
+    width: 100%;
   
   }
+
       @media screen and (min-width: 720px)  {
         .mobile-break { display: none; }
         
@@ -214,6 +215,17 @@ export default {
           
 
     }
+      .mobile_text {
+    
+   
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 15px;
+    line-height: 1.5625rem;
+    text-align :justify;
+    width: 100%;
+
+  
+  }
     .card-title {
       font-size: 13px;
       text-align: center;

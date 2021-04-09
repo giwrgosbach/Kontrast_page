@@ -8,7 +8,6 @@
    
 <p class = "general-heading__line"></p>
 
-<h1> SADSADASDASFASDAFA </h1>
  
   </div>
    

@@ -59,11 +59,38 @@
       <p class = "general-heading__line_stories" ></p>
       <p class = "promos_stories  "> Κείμενα</p>
       
+  <a   class  = "a_hover" href ="/one_year">
+      <b-card   class= " card_body  "
+         border-variant = "white"
+ 
+    img-src= "../assets/menoume.png"    
+
+
+    img-alt="Card Image"
+    img-left
+    img-height="100px;"
+    text-variant= "dark"
+   
+    title.position ="5px"
+  
+   text-color = "black" 
+   sub-title-text-variant="black"
+   img-width="100px"
+  no-body=""
+
+  >
+<div  class = "card_body_content">
+  <h4 class = "feed_keimena ">Προσπαθώντας μια αποτίμηση ενός χρόνου πανδημίας </h4>
+
+   </div> 
+    
+  </b-card>
+  </a>
   <a   class  = "a_hover" href ="/Fascism">
       <b-card   class= " card_body  "
          border-variant = "white"
  
-    img-src= "../assets/anti_nazis.jpg"    
+    img-src= "../assets/nonazis.png"    
 
 
     img-alt="Card Image"
@@ -86,7 +113,6 @@
     
   </b-card>
   </a>
-
   <a   class  = "a_hover" href ="/No_name">
       <b-card   class= " card_body  "
          bg-variant=""
@@ -178,7 +204,8 @@
 
 <b-button   href ="/posts" size="sm"  class = "button_color"  variant="outline-light"  >Περισσότερα</b-button>
 </div>
-<br> 
+
+<br>
 
     </b-col>
 
@@ -191,7 +218,7 @@
      
  
 
-<br class ="mobile-break">
+
 
 
 <a class = "a_link_hover" href ="/Storm">
@@ -224,7 +251,7 @@
     
   </b-card>
 </a>
-<br class ="mobile-break">
+
 <br>
 <b-card-group columns >
 <a class = "a_link_hover" href ="/Network">
@@ -412,7 +439,8 @@ color:black;
    text-align:right;
 }
 .a_hover {
-  color:rgb(161, 106, 167) !important; 
+  color:rgb(161, 106, 167) !important;
+  font-size:32px; 
 }  
 .test_header {
     margin :0%;
@@ -742,8 +770,8 @@ color:black;
   
 }
 .feed_keimena {
-  font-size : 18px;
-  font-family: Arial, Roboto, sans-serif  !important;
+  font-size : 16px;
+  font-family: GeoEditMedium,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif !important;
   font-weight :500;
 }
 

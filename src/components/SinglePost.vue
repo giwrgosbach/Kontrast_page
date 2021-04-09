@@ -4,7 +4,7 @@
 
     <b-col cols ="12">
  
-  <b-card  class =  "bg mobile_text css-exrw3m" 
+  <b-card  class =  "bg mobile_text css-exrw3m image_height" 
    
 
    
@@ -166,8 +166,24 @@ export default {
     font-family: georgia,'times new roman',times,serif;
     font-size: 1.125rem;
     line-height: 1.5625rem;
+    text-align: justify;
 
     width: 100%;
   
   }
+  @media screen and (min-width: 720px)  {
+        .mobile-break { display: none; }
+        
+        
+        
+    }
+    @media screen and (max-width: 720px) {
+        .button_center {
+          text-align: center; 
+
+        }}
+                .image_height {
+          padding-top :50px;
+      
+    }
 </style>

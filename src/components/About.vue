@@ -4,7 +4,7 @@
 
     <b-col cols ="12">
  
-  <b-card  class =  "bg image_height" 
+  <b-card  class =  " bg image_height" 
    
 
    
@@ -15,7 +15,7 @@
     text-variant="dark"
     
     sub-title
-    style = "max-width:  ;"
+   
     border-variant="white"
 
   >
@@ -66,7 +66,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style scoped >
   body, html {
     height: 100%;
   }
@@ -77,7 +77,7 @@ export default {
   .bg {
     padding-top  : 2%;
     /* The image used */
-    background-color : rgb(255, 255, 255);
+    background-color : white;
 
     /* Half height */
     height: 20%;
@@ -98,7 +98,7 @@ export default {
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     font-size: 1.125rem;
     line-height: 1.5625rem;
-
+    text-align:justify ;
     width: 100%;
   
   }
@@ -136,7 +136,7 @@ export default {
       
     }
         .image_height {
-          padding-top :100px;
+          padding-top :50px;
       
     }
     }

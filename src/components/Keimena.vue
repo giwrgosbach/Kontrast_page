@@ -48,16 +48,39 @@
 </a>
  
 <br>
-     
-   <a href ='/No_name '>
+    <a href ='/one_year'>
   <b-card  class= " img-hover-zoom bg"
          bg-variant="dark"
     overlay
+    img-src="../assets/menoume.png"
+
+    img-alt="Card Image"
+    img-height="300px;"
+    text-variant="white"
+    
+    
+    sub-title-text-variant="white"
+    style = "max-width:  ;"
+
+  >
+  <h4 style = "padding-top:200px;">Προσπαθώντας μια αποτίμηση ενός χρόνου πανδημίας</h4>
+    <b-card-text >
+  
+    </b-card-text>
+    
+  
+  </b-card>
+</a>  
+<br>
+   <a class = "a_hover" href ='/No_name '>
+  <b-card  class= " img-hover-zoom bg"
+         bg-variant="white"
+    img-bottom
     img-src="../assets/no_borders.jpg"
     
     img-alt="Card Image"
     img-height="300px;"
-    text-variant="white"
+    text-variant="dark"
     title= "Γι αυτούς που δεν έχουν όνομα" 
     
     sub-title-text-variant="white"
@@ -72,7 +95,29 @@
   </b-card>
 </a>
 <br>
+  <a class = "a_hover" href ='/No_name '>
+  <b-card  class= " img-hover-zoom bg"
+         bg-variant="white"
+    img-bottom
+    img-src="../assets/nonazis.png"
+    
+    img-alt="Card Image"
+    img-height="300px;"
+    text-variant="dark"
+    title= "Ο φασισμός πέθανε, ζήτω ο φασισμός " 
+    
+    sub-title-text-variant="white"
+    style = "max-width:  ;"
 
+  >
+    <b-card-text >
+  
+    </b-card-text>
+    
+  
+  </b-card>
+</a>
+<br>
 
 
    <a class = "a_hover" href ='/Oxi'>

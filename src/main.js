@@ -20,6 +20,8 @@ import Viewer from 'v-viewer'
 import CoolLightBox from 'vue-cool-lightbox'
 import 'vue-cool-lightbox/dist/vue-cool-lightbox.min.css'
 import Keimena from './components/Keimena.vue'
+import one_year from './components/one_year.vue'
+
 
 import VuePictureSwipe from 'vue-picture-swipe';
 Vue.component('vue-picture-swipe', VuePictureSwipe);
@@ -60,7 +62,8 @@ const routes = [
   {path:'/View', component: View},
   {path: '/Fascism', component: Fascism},
   {path: '/No_name', component :No_name},
-  {path: '/Storm',component : Storm}
+  {path: '/Storm',component : Storm},
+  {path:'/One_year', component: one_year}
   
 ]
 
