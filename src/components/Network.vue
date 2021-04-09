@@ -1,6 +1,7 @@
 <template  >
 
 <div  id = "Posts" class = "black_and_white">
+<b-container>
 <br>
   
  <div  class = "general-heading__header_posters heading_title "  >
@@ -19,8 +20,7 @@
   </div>
 
  <b-row >
-
-<b-container   fluid = "md">
+<b-container>
   <b-row cols = "1" cols-sm = "2">
   <b-col   order = "1" >
     
@@ -184,6 +184,7 @@
 
  </b-row>
  <br>
+ </b-container>
 </div>
 
 </template>

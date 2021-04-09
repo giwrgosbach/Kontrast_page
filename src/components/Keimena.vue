@@ -1,10 +1,10 @@
 <template  >
 
 <div class = "black_and_white">
-<p class = "general-heading__line_stories_title  " ></p>
+<b-container>
 <br>
    
- <div  class = "general-heading__header"  >
+ <div  class = "general-heading__header_posters heading_title "   >
     <H1 > KEIMENA </h1>
    
 <p class = "general-heading__line"></p>
@@ -19,7 +19,7 @@
 
  <b-row >
 
-<b-container   fluid = "md">
+
    
   <b-col  cols = "12" >
     
@@ -145,9 +145,10 @@
 </a>
   <br>
     </b-col>
-</b-container>
+
 
  </b-row>
+ </b-container>
 </div>
 
 </template>
@@ -174,8 +175,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style >
-.bg {
-  background-color :black
+
+.black_and_white{
+
+  background-color :white;
+  max-width: 100%;
+
+  
+  
 }
 .card-title{
     font-size:16px;
@@ -207,35 +214,17 @@ export default {
 
 
 .general-heading__header {
-    font-family: 'GeoBrandBold';
-    text-transform: uppercase;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    color: black;
-    padding-top : 6.8%;
-    padding-bottom: 5%;
-    font-weight: 1000px;
-    font-size: 600px;
+    font-family: "GeoBrandBold,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif";
+    font-size: 20px;
     letter-spacing: 3.5px;
     line-height: 1.19;
-    margin: 50;
-    text-align: center;
-}
-
-.general-heading__dek {
-    font-family: Segoe UI, ;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-weight: 100;
-   font-size: 180px;
-    letter-spacing: 0;
-    letter-spacing: .1px;
-    font-size: 25px;
-    line-height: 1.5;
-    margin: 16px 0 23px;
-    text-transform: initial;
-
+    text-transform: none;
+    color : black;
 }
+
+
 .general-heading__line {
     background-color: rgb(161, 106, 167);;
     height: 5px;
