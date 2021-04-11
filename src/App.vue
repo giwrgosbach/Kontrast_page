@@ -46,7 +46,16 @@ export default {
           name: "description",
           content:
             "hello world, this is an example of adding a description with vueMeta"
+        },
+                {
+          vmid: "ogtitle",
+
+        },
+                        {
+          vmid: "type",
+
         }
+
       ]
 
     

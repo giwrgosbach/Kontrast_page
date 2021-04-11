@@ -181,7 +181,7 @@ export default {
 
         {
         property:'og:image',
-        content: '../assets/menoume.png'},
+        content: 'https://d1aecjitk0g1d1.cloudfront.net/img/1200/924253-5ebd4e7ca31b9c001215dcad.jpg'},
                 {
         property:'og:url',
         content: 'https://kontrast.netlify.app/one_year'},
