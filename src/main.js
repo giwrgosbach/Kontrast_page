@@ -64,27 +64,8 @@ const routes = [
   {path: '/No_name', component :No_name},
   {path: '/Storm',component : Storm},
   {path:'/One_year', 
-  component: one_year,
-  meta : {
-    title: 'Προσπαθώντας μια αποτίμηση ενός χρόνου πανδημίας ',
-    metaTags: [
-      {
-        name :'description',
-        content: 'Óne single post '
-      },
-      {
-        property:'og:description',
-        content: 'One single post'
+  component: one_year,}
 
-      },
-      {
-        property: 'og:image',
-        content: '../assets/menoume.png'
-      }
-    ]
-  }
-
-}
   
 ]
 

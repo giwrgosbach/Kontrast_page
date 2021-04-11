@@ -175,13 +175,10 @@ export default {
       metaInfo() {
     return {
       title: "Προσπαθώντας μια αποτίμηση ενός χρόνου πανδημίας | Kontrast",
-      meta: [
-        {
-          vmid: "description",
-          name: "description",
-          content:
-            ""
-        },
+      meta: [   {
+        property:'og:title',
+        content: 'Προσπαθώντας μια αποτίμηση ενός χρόνου πανδημίας'},
+
         {
         property:'og:image',
         content: '../assets/menoume.png'},
