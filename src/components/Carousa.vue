@@ -583,7 +583,7 @@ color:black;
     height: 4px;
     line-height: 10px;
     margin:15px;
-    width: 500px;
+    width: 600px;
     
         
     
@@ -604,7 +604,7 @@ color:black;
     height: 10px;
     
     margin: 21px auto 0;
-    width: 200px;
+    width: 300px;
 }
 .homepage_container__promos {
     padding-left:40px;

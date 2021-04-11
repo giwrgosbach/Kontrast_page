@@ -21,7 +21,7 @@ import CoolLightBox from 'vue-cool-lightbox'
 import 'vue-cool-lightbox/dist/vue-cool-lightbox.min.css'
 import Keimena from './components/Keimena.vue'
 import one_year from './components/one_year.vue'
-
+import VueMeta from 'vue-meta'
 
 import VuePictureSwipe from 'vue-picture-swipe';
 Vue.component('vue-picture-swipe', VuePictureSwipe);
@@ -46,7 +46,7 @@ Vue.use(IconsPlugin)
 
 Vue.use(VueRouter)
 
-
+Vue.use(VueMeta)
 
 
 
@@ -63,7 +63,28 @@ const routes = [
   {path: '/Fascism', component: Fascism},
   {path: '/No_name', component :No_name},
   {path: '/Storm',component : Storm},
-  {path:'/One_year', component: one_year}
+  {path:'/One_year', 
+  component: one_year,
+  meta : {
+    title: 'Προσπαθώντας μια αποτίμηση ενός χρόνου πανδημίας ',
+    metaTags: [
+      {
+        name :'description',
+        content: 'Óne single post '
+      },
+      {
+        property:'og:description',
+        content: 'One single post'
+
+      },
+      {
+        property: 'og:image',
+        content: '../assets/menoume.png'
+      }
+    ]
+  }
+
+}
   
 ]
 

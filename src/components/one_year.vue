@@ -170,14 +170,33 @@
 
 export default {
   name: 'one_year',
-  data(){
-    return {
-      mainProps: { blank: true,  width: 75, height: 75, class: 'm1' }
-    }
-  }
-  
-}
+ 
 
+      metaInfo() {
+    return {
+      title: "Προσπαθώντας μια αποτίμηση ενός χρόνου πανδημίας | Kontrast",
+      meta: [
+        {
+          vmid: "description",
+          name: "description",
+          content:
+            ""
+        },
+        {
+        property:'og:image',
+        content: '../assets/menoume.png'},
+                {
+        property:'og:url',
+        content: 'https://kontrast.netlify.app/one_year'},
+                        {
+        property:'og:description',
+        content: 'Προσπαθώντας μια αποτίμηση ενός χρόνου πανδημίας'}
+
+      ]
+    };
+  }
+};
+    
   
 
 </script>

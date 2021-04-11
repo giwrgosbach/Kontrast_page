@@ -1,6 +1,7 @@
 <template >
+
 <div class= "mx-auto" style="body{padding-top:10px;}" >
-  <b-navbar toggleable="xl" type="light" variant="white" fixed ="top" class = "navbg navbar_font navbar-header"
+  <b-navbar toggleable="md" type="light" variant="white" fixed ="top" class = "navbg navbar_font navbar-header"
   >
     <b-navbar-brand href="/" style = "font-size : 32px;"  >Kontrast</b-navbar-brand>
 
@@ -8,24 +9,26 @@
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
 
-    <b-collapse id="nav-collapse" is-nav>
+    <b-collapse id="nav-collapse" is-nav >
     
-      <b-navbar-nav>
-      
-    <div class = "general-heading__line_stories_title_navbar " >
-  
-    </div>
-        <b-nav-item v-bind:href ="'/posts'" >Κείμενα</b-nav-item>
+      <b-navbar-nav >
+
+
+     
+        <b-nav-item  v-bind:href ="'/posts'" >Κείμενα</b-nav-item>
         <b-nav-item href= "/View" >Αφίσες</b-nav-item>
          <b-nav-item href="/Network" >Δράσεις</b-nav-item>
-                        <div class = "general-heading__line_stories_title_2 " >
-  
-    </div>
+
+
+
+
+
       </b-navbar-nav>
+
       
 
       <!-- Right aligned nav items -->
-      <b-navbar-nav class="ml-auto">
+      <b-navbar-nav align-center>
 
         <b-nav-form>
 
@@ -38,6 +41,7 @@
     </b-collapse>
     
   </b-navbar>
+
 
 </div>
 
@@ -88,8 +92,9 @@ export default {
     height: 4px;
     line-height: 10px;
     float:center;
-    width: 460px;
-    margin-top:22px;
+    width: 100%;
+    
+    
     
 
     
@@ -100,8 +105,8 @@ export default {
     height: 4px;
     line-height: 10px;
     float:center;
-    width: 600px;
-    margin-top:22px;
+    width: 100%;
+    
     
 
     
