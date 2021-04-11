@@ -176,6 +176,7 @@ export default {
     return {
       title: "Προσπαθώντας μια αποτίμηση ενός χρόνου πανδημίας | Kontrast",
       meta: [   {
+        vmid: 'ogtitle',
         property:'og:title',
         content: 'Προσπαθώντας μια αποτίμηση ενός χρόνου πανδημίας'},
 
