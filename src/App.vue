@@ -40,7 +40,14 @@ export default {
       metaInfo() {
     return {
       title: "Kontrast",
-     
+            meta: [
+        {
+          vmid: "description",
+          name: "description",
+          content:
+            "hello world, this is an example of adding a description with vueMeta"
+        }
+      ]
 
     
   
