@@ -56,7 +56,7 @@ export default {
 
         },
         {
-          vmid : "ogimage"
+          vmid : "ogimage",
           content : "../assets/kontrast_logo_black.png"
         }
 
