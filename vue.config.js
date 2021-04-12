@@ -34,13 +34,7 @@ module.exports = {
       // Required - Routes to render.
       routes: [ '/', '/one_year', '/Fascism', '/About'   ],
    
-      renderer: new Renderer({
-        inject: {
-        
-        },
-        headless: false,
-        renderAfterDocumentEvent: 'render-event'
-      })
+    
     })
   ]
 
