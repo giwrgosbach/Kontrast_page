@@ -15,7 +15,7 @@ import Fascism from './components/Fascism'
 import No_name from './components/No_name.vue'
 import 'zircle/dist/zircle.css'
 import View from './components/View.vue'
-import VueApollo from 'vue-apollo'
+
 import Viewer from 'v-viewer'
 import CoolLightBox from 'vue-cool-lightbox'
 import 'vue-cool-lightbox/dist/vue-cool-lightbox.min.css'
@@ -32,7 +32,6 @@ Vue.config.productionTip = false
 Vue.use(zircle)
 
 
-Vue.use(VueApollo)
 Vue.config.productionTip = false
 
 
@@ -72,7 +71,7 @@ const routes = [
 
 const router = new VueRouter({
   routes: routes,
-  mode: 'history',
+  mode: 'history', //
   
   
 })
@@ -87,4 +86,4 @@ new Vue({
   router:router,
 
 
-}).$mount('#app')
+}).$mount('#app' , true)
