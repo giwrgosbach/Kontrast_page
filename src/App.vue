@@ -45,7 +45,7 @@ export default {
           vmid: "description",
           name: "description",
           content:
-            "hello world, this is an example of adding a description with vueMeta"
+            ""
         },
                 {
           vmid: "ogtitle",
@@ -54,6 +54,10 @@ export default {
                         {
           vmid: "type",
 
+        },
+        {
+          vmid : "ogimage"
+          content : "../assets/kontrast_logo_black.png"
         }
 
       ]
